@@ -1,0 +1,1 @@
+execute if score *** Znsi.Game matches 1 run function rules_roulette:tick

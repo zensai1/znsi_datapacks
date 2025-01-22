@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:player"
+            },
+            "type": {
+              "direct_entity": {
+                "type": "minecraft:trident"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rules_roulette:game/chenge_item"
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_candle",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:binding_curse": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
